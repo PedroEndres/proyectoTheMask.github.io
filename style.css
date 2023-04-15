@@ -223,6 +223,9 @@ main {
     .header-container {
     width: 100%;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
     .div-container {
@@ -236,11 +239,29 @@ main {
   .logo-container {
     margin: 0;
   }
+
+  .logo-container > a {
+    height: 60px;
+  }
+
+  .section-nav-container {
+    width: 100%;
+    display: flex;
+  }
+
+  .nav-container {
+    font-size: 4px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
   .nav-list {
     margin-top: 20px;
     flex-direction: flex;
     gap: 10px;
     margin-left: 0;
+    padding: 0;
+    font-size: 13px;
   }
 
   .biografia {
