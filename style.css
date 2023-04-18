@@ -399,6 +399,19 @@ main {
 
 @media screen and (max-width: 570px){
   
+  .header-container {
+    align-items: center;
+  }
+
+  .logo-container > a img {
+    margin: 0;
+    height: 60px;
+  }
+
+  .main-container {
+    margin: 0 10px;
+  }
+
   .aside-biografia {
     width: 100%;
   }
